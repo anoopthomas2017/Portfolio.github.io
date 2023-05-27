@@ -5,15 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
   <header>
     <nav>
       <ul>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li id="project"><a class="button">Projects</a></li>
+        <li id="contacts"><a class="button">Contact</a></li>
       </ul>
     </nav>
   </header>
@@ -24,29 +26,45 @@
       <p>Check out my latest projects below.</p>
     </header>
 
-    <section id="projects">
+    <section id="projects" class="project-description show-description">
       <h2>Projects</h2>
       <article>
-        <img src="project1-thumbnail.jpg" alt="Project 1">
-        <h3>Project 1</h3>
-        <p>Description of Project 1</p>
-        <a href="project1.html">View Details</a>
+        <img src="/img/message.png" alt="message project">
+        <h2>Message Generator</h2>
+        <div class="project-description">
+          <h3>Description of the Project </h3>
+          <hr>
+
+          <p>The Message Generator is an interactive web program that generates random messages <br>by combining
+            different
+            subjects, verbs, and objects. Each time the user clicks the button, <br>a new, randomized message is
+            displayed
+            on the screen.</p>
+          <hr>
+          <br>
+          <a href="https://github.com/anoopthomas2017/message-generator" class="button">View Files</a>
+
+        </div>
       </article>
 
       <article>
-        <img src="project2-thumbnail.jpg" alt="Project 2">
+        <img src="/img/message.png" alt="Project 2">
         <h3>Project 2</h3>
-        <p>Description of Project 2</p>
-        <a href="project2.html">View Details</a>
+        <div class="project-description">
+
+          <p>Description of Project 2</p>
+          <br>
+          <a href="https://github.com/anoopthomas2017/message-generator" class="button">View Details</a>
+        </div>
       </article>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="project-description">
       <h2>Contact</h2>
       <p>Feel free to reach out to me:</p>
       <ul>
-        <li>Email: info@example.com</li>
-        <li>Phone: 123-456-7890</li>
+        <li>Email: anooptho4u@gmail.com</li>
+        <li>Phone: 8589888089</li>
         <li>LinkedIn: <a href="https://www.linkedin.com/">Your LinkedIn Profile</a></li>
       </ul>
     </section>
